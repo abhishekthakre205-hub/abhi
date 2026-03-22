@@ -66,7 +66,7 @@ def generate_password(length: int = 16) -> str:
 # ------------------------------------------------------------------
 # Create user
 # ------------------------------------------------------------------
-ddef onboard_user(username: str, role: str):
+def onboard_user(username: str, role: str):
     import secrets
 
     # ✅ Strong password with special characters
